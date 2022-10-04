@@ -1,0 +1,5 @@
+a=int(input())
+c=str(a)
+b=str(a**2)
+if b.endswith(c):print('Automorphic Number')
+else:print('Not an Automorphic Number')
