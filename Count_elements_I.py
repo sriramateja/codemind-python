@@ -1,0 +1,7 @@
+a,b=map(int,input().split())
+a=list(map(int,input().split()))
+b=list(map(int,input().split()))
+c=set(a)
+d=set(b)
+g=len(c&d)
+print(g)
