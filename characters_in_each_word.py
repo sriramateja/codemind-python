@@ -1,5 +1,4 @@
 b=list(input().split())
 c=[]
-for i in b:
-    c+=[len(i)]
+c+=[len(i) for i in b]
 print(*c)
