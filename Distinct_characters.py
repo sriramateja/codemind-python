@@ -1,8 +1,7 @@
 a=input().lower()
 c=[]
 for i in a:
-    if i!=' ':
-        if a.count(i)==1:
-            c+=[i]
+    if i!=' ' and i not in c:
+        c+=[i]
 d=sorted(c)
 print(''.join(d))
